@@ -1,6 +1,6 @@
 # Mindwell
 
-**Mindwell Web** is a full-stack web platform designed to connect individuals with mental health counselors in a simple and accessible way.  
+**Mindwell Web** , a full-stack web platform designed to connect individuals with mental health counselors in a simple and accessible way.  
 Users can book sessions, while counselors manage appointments and communication through a secure admin dashboard.
 
 ---
