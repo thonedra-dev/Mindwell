@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        /* Navigation Bar Styles */
+        .nav-header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px 40px;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .brand-logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .brand-logo span {
+            color: #f8b400;
+        }
+
+        .menu-list {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-list a {
+            text-decoration: none;
+            color: #555;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .menu-list a:hover {
+            color: #f8b400;
+        }
+
+        .nav-contact-btn {
+            background-color: #f8b400;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .nav-contact-btn:hover {
+            background-color: #e68900;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-wrap: wrap;
+            }
+
+            .menu-list {
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+                margin-top: 10px;
+            }
+
+            .nav-contact-btn {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="nav-header">
+        <nav class="nav-container">
+            <div class="brand-logo">MIND<span>WELL</span></div>
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="resource.php">Resources</a></li>
+                <li><a href="register.php">Register</a></li>    
+                <li><a href="assess.php">Assess</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+            </ul>
+            <a href="mastermind.php" class="nav-contact-btn">Contact</a>
+        </nav>
+    </header>
+</body>
+</html>
