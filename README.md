@@ -25,3 +25,5 @@ View and reply to appointment requests
 Approve, reschedule, or decline appointments
 
 Maintain an overview of all users and sessions
+
+The goal of Mindwell Web is to provide a supportive digital space where users can seek mental health guidance, while giving counselors an efficient platform to manage sessions and communication.
