@@ -9,7 +9,8 @@ Users can book sessions, while counselors manage appointments and communication 
 - Create an account and log in securely  
 - Browse and request appointments with counselors  
 - Communicate with counselors through appointment requests and responses  
-- Track appointment status (pending, approved, declined)  
+- Track appointment status (pending, approved, declined)
+- Mental Health knowledge sharing contents
 
 ---
 
