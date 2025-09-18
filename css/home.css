@@ -1,0 +1,994 @@
+/* General Reset */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+/* Navigation Bar */
+header {
+    background: #fff;
+    padding: 10px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo, links, and button */
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-right: 70px; /* Space between logo and navigation links */
+}
+
+/* Navigation Links */
+.nav-links {
+    font-size: larger; /* Adjust size for emphasis */
+    list-style: none;
+    display: flex;
+    gap: 35px; /* Space between navigation links */
+    justify-content: center; /* Center navigation links */
+    flex-grow: 1; /* Allow nav-links to occupy central space */
+}
+
+/* Navigation Links Anchor */
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem; /* Enlarged text size for emphasis */
+}
+
+/* Contact Button */
+.contact-btn {
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 8px 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+    margin-left: 70px; /* Space between button and navigation links */
+}
+
+/* Contact Button Hover State */
+.contact-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/* Hero Section with Parallax Effect */
+.hero {
+    height: 500px; /* Full height for the section */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+    color: #fff;
+    position: relative;
+
+    background-image: url('../image/hotel-main.jpg'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Enables Parallax Effect */
+}
+
+/* Overlay Effect for Hero Section */
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+/* Hero Section with Combined Parallax and Slideshow Effect */
+.hero {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+    color: #fff;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Enables Scroll-Based Parallax Effect */
+    animation: slideShow 25s infinite; /* Enables Photo-Changing Slideshow */
+}
+
+/* Overlay Effect for Hero Section */
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+
+/* Hero Content Styling */
+.hero-content {
+    position: relative; /* Content positioned above overlay */
+    z-index: 2;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+/* Keyframes for Photo-Changing Slideshow */
+@keyframes slideShow {
+    0% { background-image: url('../image/e.jpg'); } 
+   
+    20% { background-image: url('../image/y.jpg'); } 
+
+  
+    40% {  background-image: url('../image/b.jpg');  } 
+
+   
+    60%{ background-image: url('../image/c.png');  } 
+  
+    80% {  background-image: url('../image/z.jpg');  } 
+
+   
+    100%{ background-image: url('../image/a.png');  } 
+}
+
+/* Parallax Banner Section */
+.parallax-banner {
+    height: 500px; /* Full height for the section */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+    color: #fff;
+    position: relative;
+
+    background-image: url('../image/e.jpg'); /* Single background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Enables Parallax Effect */
+}
+
+/* Overlay Effect for Parallax Banner Section */
+.parallax-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+
+/* Banner Content Styling */
+.banner-content {
+    position: relative; /* Content positioned above overlay */
+    z-index: 2;
+    max-width: 500px;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.banner-btn:hover {
+    background: #218838;
+}
+
+
+
+
+/* Section Container */
+.resources-section {
+    padding: 60px 40px;
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center;
+}
+
+/* Section Header */
+.resources-header h4 {
+    color: #28a745; /* Green heading */
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.resources-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+/* Cards Container */
+.resources-cards {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Individual Card */
+.resource-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 320px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.resource-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Hover Effect on Images */
+.resource-card img:hover {
+    transform: scale(1.2); /* Increase the size by 10% */
+}
+
+.resource-content {
+    padding: 20px;
+}
+
+.resource-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resource-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.resource-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split into two equal columns */
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form h4 {
+    color: #28a745;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: #218838;
+}
+
+/* Contact Details */
+.contact-details .map-placeholder {
+    background: #e0e0e0;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-details h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.contact-details p,
+.contact-details ul {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #0d1a0f; /* Dark background color */
+    color: #fff;
+    padding: 60px 20px; /* Larger footer padding for size */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between links */
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase; /* Matches the text format */
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #28a745; /* Green color on hover */
+}
+
+.footer-credit {
+    text-align: left; /* Align credit text to the left */
+    padding-left: 20px; /* Add a small left padding */
+}
+
+.footer-credit p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer-credit-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-credit-link:hover {
+    color: #28a745;
+}
+
+
+/* Scroll Animation Base */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px); /* Default movement: down */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Appear From Top */
+.scroll-animate.from-top {
+    transform: translateY(-50px);
+}
+
+/* Appear From Bottom */
+.scroll-animate.from-bottom {
+    transform: translateY(50px);
+}
+
+/* Appear From Left */
+.scroll-animate.from-left {
+    transform: translateX(-50px);
+}
+
+/* Appear From Right */
+.scroll-animate.from-right {
+    transform: translateX(50px);
+}
+
+/* Add This Class to Trigger the Animation */
+.scroll-animate.show {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
+/* Delay Effects for Staggered Animation */
+.delay-1 {
+    transition-delay: 0.2s; /* Slightly shorter */
+}
+
+.delay-2 {
+    transition-delay: 0.4s; /* Slightly shorter */
+}
+
+.delay-3 {
+    transition-delay: 0.6s; /* Slightly shorter */
+}
+
+/* FOR services.html */
+
+/* Modern Hero Section */
+.modern-hero {
+    height: 500px; /* Set height for the hero section */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Vertically center the content */
+    justify-content: flex-start; /* Align content to the left */
+    padding: 0 50px; /* Add padding for spacing from the edges */
+    color: #fff; /* Set text color to white */
+    background-image: url('../image/aiconversation.png'); /* Replace with your image */
+    background-size: cover; /* Make the background cover the entire section */
+    background-position: center; /* Center the background image */
+    position: relative;
+}
+
+.modern-hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Add a dark overlay */
+    z-index: 1;
+}
+
+.modern-hero .hero-content {
+    position: relative; /* Ensure content is above the overlay */
+    z-index: 2; /* Keep content above the background overlay */
+    max-width: 600px; /* Limit the content width */
+}
+
+.modern-hero .hero-content h1 {
+    font-size: 3rem; /* Adjust heading size */
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.modern-hero .hero-content p {
+    font-size: 1.2rem; /* Adjust paragraph font size */
+    margin-bottom: 30px; /* Add space below the paragraph */
+}
+
+.modern-hero .hero-content .btn {
+    text-decoration: none;
+    background-color: #28a745; /* Green background for the button */
+    color: #fff; /* White text for the button */
+    padding: 12px 24px; /* Adjust padding for the button */
+    font-size: 1rem; /* Adjust button font size */
+    font-weight: bold; /* Make button text bold */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.modern-hero .hero-content .btn:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+
+
+/* FAQ Section Styling */
+.faq-section {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faq-header h4 {
+    color: #28a745; /* Green heading */
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.faq-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-5px);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    color: #28a745;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    padding: 20px;
+    display: none;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.faq-answer.visible {
+    display: block;
+}
+
+/* Smooth transition for FAQ open/close */
+.faq-answer {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+}
+
+.faq-answer.visible {
+    max-height: 300px; /* Adjust based on content */
+    opacity: 1;
+}/* Register Section */
+.register-section {
+    padding: 60px 40px;
+    background-image: url('../image/b.jpg'); /* Replace with your actual image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Enables parallax effect if desired */
+    text-align: center;
+    color: #ffffff; /* Bright white text color for the entire section */
+}
+
+.register-section h2 {
+    font-size: 2.8rem; /* Slightly larger font size */
+    font-weight: 900; /* Extra bold font weight */
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Bright white for the header */
+}
+
+.register-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: transparent; /* No background color */
+    box-shadow: none; /* Removes any shadow */
+    border: none; /* Ensures no borders */
+    color: #ffffff; /* Bright white text for form inputs and labels */
+}
+
+.register-form .errors ul,
+.register-form .success p {
+    color: #ff0000; /* Strong red color for error messages */
+    font-weight: bold; /* Bold text for better visibility */
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.register-form label {
+    font-weight: 700; /* Bold font weight */
+    margin-bottom: 5px;
+    display: block;
+    color: #ffffff; /* Bright white for labels */
+}
+
+.register-form input {
+    width: 100%;
+    padding: 12px; /* Slightly larger padding for better visibility */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid #ffffff; /* Thicker bright white border for inputs */
+    background-color: transparent; /* Transparent input background */
+    color: #ffffff; /* Bright white text for inputs */
+    font-weight: bold; /* Bold input text */
+}
+
+.register-form input::placeholder {
+    color: #eeeeee; /* Brighter placeholder text */
+    font-weight: bold; /* Bold placeholder text */
+}
+
+.register-form input:focus {
+    outline: none; /* Removes default outline */
+    border-color: #00ff00; /* Bright green highlight border on focus */
+    background-color: #00000033; /* Slight black tint for focus */
+}
+
+.btn-submit {
+    background: #00cc00; /* Stronger green color */
+    color: #ffffff; /* Bright white text */
+    border: none;
+    padding: 12px 24px; /* Slightly larger padding */
+    font-size: 1.2rem; /* Larger font size for emphasis */
+    font-weight: 900; /* Extra bold font weight */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+.btn-submit:hover {
+    background: #009900; /* Darker green on hover */
+    transform: scale(1.08); /* Adds a stronger hover effect */
+}
+
+a {
+    color: #00cc00; /* Strong green for links */
+    font-weight: bold; /* Bold text for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009900; /* Darker green on hover */
+    text-decoration: underline;
+}
+
+/* Login Modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    display: none;
+    z-index: 1000;
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal-header h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.modal .close-btn {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.overlay.active {
+    display: block;
+}
+
+ /* FAQ Section Styling */
+ .faq-section {
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faq-header h4 {
+    color: #28a745;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.faq-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-5px);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #28a745;
+    transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #f1f1f1;
+}
+
+.faq-icon {
+    font-size: 1.5rem;
+    color: #28a745;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    padding: 20px;
+    display: none;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+.faq-answer.visible {
+    display: block;
+}
+
+/* Smooth transition for FAQ open/close */
+.faq-answer {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+}
+
+.faq-answer.visible {
+    max-height: 300px;
+    opacity: 1;
+}
+
+
+/* Additional CSS for Self-Assessment Page in home.css */
+/* Section Enhancements */
+#self-assessment {
+    background: linear-gradient(135deg, #f9f9f9, #e8f5e9);
+    padding: 80px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 900px;
+  }
+  
+  #self-assessment h2 {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  #self-assessment p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .form-check {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .form-check-label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+  }
+  
+  .progress {
+    height: 8px;
+    margin-bottom: 30px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    background-color: #28a745;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  #assessment-result {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    padding-top: 20px;
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
