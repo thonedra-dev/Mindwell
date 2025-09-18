@@ -12,3 +12,16 @@ Browse and request appointments with counselors
 Communicate with counselors through appointment requests and responses
 
 Track appointment status (pending, approved, declined)
+
+
+Counselor/Admin Features
+
+Secure admin dashboard
+
+Manage user accounts and profiles
+
+View and reply to appointment requests
+
+Approve, reschedule, or decline appointments
+
+Maintain an overview of all users and sessions
