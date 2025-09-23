@@ -1,4 +1,4 @@
-<img width="1875" height="867" alt="image" src="https://github.com/user-attachments/assets/b376019d-1240-4a36-83e8-3e74a956d64f" /># Mindwell Web
+# Mindwell Web
 Mindwell Web is a mental well-being platform designed to empower users by providing mental health resources, encouragement, and personalized support. The web application allows users to explore content freely, register for an account, and book appointments with counselors. Admins can manage appointments and communicate directly with users through a streamlined interface.
 
 
