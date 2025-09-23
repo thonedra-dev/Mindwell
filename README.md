@@ -13,30 +13,38 @@ Allowing registered users to book appointments with counselors.
 Offering an admin interface to manage and approve appointments efficiently.
 
 
-
 ## Features
 
-Public access to mental health resources.
+### Public access to mental health resources
+![Public Access](path/to/image1.png)
 
-User registration and login system.
+### User registration and login system
+![User Registration](path/to/image2.png)
 
-Appointment booking system with dynamic user interface.
+### Appointment booking system with dynamic user interface
+![Appointment Booking](path/to/image3.png)
 
-Admin approval system with venue, date, and time management.
+### Admin approval system with venue, date, and time management
+![Admin Approval](path/to/image4.png)
 
-Real-time updates for users to see admin responses.
+### Real-time updates for users to see admin responses
+![Real-Time Updates](path/to/image5.png)
 
-Three main data tables:
+### Three main data tables
 
-Appointment Requests Table – Tracks requests submitted by users.
+#### Appointment Requests Table – Tracks requests submitted by users
+![Appointment Requests Table](path/to/image6.png)
 
-Approval Table – Displays appointments approved by admin with details.
+#### Approval Table – Displays appointments approved by admin with details
+![Approval Table](path/to/image7.png)
 
-User Info Table – Stores user full name, email, and login credentials.
+#### User Info Table – Stores user full name, email, and login credentials
+![User Info Table](path/to/image8.png)
 
 
 
-User Workflow
+
+## User Workflow
 
 Visit the website and browse mental health resources without logging in.
 
