@@ -16,7 +16,7 @@ Offering an admin interface to manage and approve appointments efficiently.
 ## Features
 
 ### Public access to mental health resources
-![Public Access](path/to/image1.png)
+![Public Access](homepage.png)
 
 ### User registration and login system
 ![User Registration](path/to/image2.png)
