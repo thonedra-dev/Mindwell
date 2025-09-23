@@ -51,14 +51,11 @@ After logging in, submit an appointment request including phone number and menta
 View admin responses dynamically on the same page after login.
 
 
-Admin Workflow
+## Tech Stack
 
-Login to the admin interface.
+Frontend: HTML, CSS, JavaScript
 
-View all appointment requests from users.
+Backend: PHP
 
-Respond with venue, date, and time for each appointment.
+Database: MySQL (XAMPP)
 
-Approved appointments are displayed in the approval table.
-
-Ensure user requests and responses are properly synchronized in the database.
