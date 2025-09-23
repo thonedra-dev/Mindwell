@@ -1,4 +1,4 @@
-# Mindwell Web
+<img width="1875" height="867" alt="image" src="https://github.com/user-attachments/assets/b376019d-1240-4a36-83e8-3e74a956d64f" /># Mindwell Web
 Mindwell Web is a mental well-being platform designed to empower users by providing mental health resources, encouragement, and personalized support. The web application allows users to explore content freely, register for an account, and book appointments with counselors. Admins can manage appointments and communicate directly with users through a streamlined interface.
 
 
@@ -25,10 +25,13 @@ Offering an admin interface to manage and approve appointments efficiently.
 ![User Registration](user_authentication.png)
 
 ### Appointment booking system with dynamic user interface
-![Appointment Booking](path/to/image3.png)
+![Appointment Booking](user_book.png)
 
-### Admin approval system with venue, date, and time management
-![Admin Approval](path/to/image4.png)
+### Admin Panel Management
+#### User Appointment Requests
+![Admin Approval](appointment_list.png)
+#### Mental Counselor Meeting Schedules
+![Admin Approval](meeting_list.png)
 
 ### Real-time updates for users to see admin responses
 ![Real-Time Updates](path/to/image5.png)
