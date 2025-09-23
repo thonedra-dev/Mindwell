@@ -34,18 +34,8 @@ Offering an admin interface to manage and approve appointments efficiently.
 ![Admin Approval](meeting_list.png)
 
 ### Real-time updates for users to see admin responses
-![Real-Time Updates](path/to/image5.png)
+![Real-Time Updates](user_getting_reply.png)
 
-### Three main data tables
-
-#### Appointment Requests Table – Tracks requests submitted by users
-![Appointment Requests Table](path/to/image6.png)
-
-#### Approval Table – Displays appointments approved by admin with details
-![Approval Table](path/to/image7.png)
-
-#### User Info Table – Stores user full name, email, and login credentials
-![User Info Table](path/to/image8.png)
 
 
 
