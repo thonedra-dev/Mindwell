@@ -16,25 +16,25 @@ Offering an admin interface to manage and approve appointments efficiently.
 ## Features
 
 ### First view of Mindwell
-![Public Access](homepage.png)
+![Public Access](/readme_images/homepage.png)
 
 ### Mental Health Resources
-![User Registration](resources.png)
+![User Registration](/readme_images/resources.png)
 
 ### User registration and login system
-![User Registration](user_authentication.png)
+![User Registration](/readme_images/user_authentication.png)
 
 ### Appointment booking system with dynamic user interface
-![Appointment Booking](user_book.png)
+![Appointment Booking](/readme_images/user_book.png)
 
 ### Admin Panel Management
 #### User Appointment Requests
-![Admin Approval](appointment_list.png)
+![Admin Approval](/readme_images/appointment_list.png)
 #### Mental Counselor Meeting Schedules
-![Admin Approval](meeting_list.png)
+![Admin Approval](/readme_images/meeting_list.png)
 
 ### Real-time updates for users to see admin responses
-![Real-Time Updates](user_getting_reply.png)
+![Real-Time Updates](/readme_images/user_getting_reply.png)
 
 
 
