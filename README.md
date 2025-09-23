@@ -15,11 +15,14 @@ Offering an admin interface to manage and approve appointments efficiently.
 
 ## Features
 
-### Public access to mental health resources
+### First view of Mindwell
 ![Public Access](homepage.png)
 
+### Mental Health Resources
+![User Registration](resources.png)
+
 ### User registration and login system
-![User Registration](path/to/image2.png)
+![User Registration](user_authentication.png)
 
 ### Appointment booking system with dynamic user interface
 ![Appointment Booking](path/to/image3.png)
