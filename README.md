@@ -62,8 +62,8 @@ Database: MySQL (XAMPP)
 ## How to Import Database
 1. Open XAMPP and start MySQL.
 2. Open phpMyAdmin.
-3. Create a new database named `cinema`.
-4. Click **Import**, select the `cinema.sql` file, and execute.
+3. Create a new database named `tttt`.
+4. Click **Import**, select the `tttt.sql` file, and execute.
 5. Your tables are ready to use!
 
 ---
