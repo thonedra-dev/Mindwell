@@ -59,3 +59,16 @@ Backend: PHP
 
 Database: MySQL (XAMPP)
 
+## How to Import Database
+1. Open XAMPP and start MySQL.
+2. Open phpMyAdmin.
+3. Create a new database named `cinema`.
+4. Click **Import**, select the `cinema.sql` file, and execute.
+5. Your tables are ready to use!
+
+---
+
+## Contact
+If you face any difficulty or have questions, feel free to reach out:  
+**Email:** thonedra.dev@gmail.com
+
