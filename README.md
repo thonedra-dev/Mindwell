@@ -74,4 +74,4 @@ If you face any difficulty or have questions, feel free to reach out:
 
 ## System Requirement
 [beak](https://beakit.com/)
-<img src="https://t.bkit.co/w_69179cdabcde9.gif" />
+<img src="https://t.bkit.co/w_69179f92a509f.gif" />
