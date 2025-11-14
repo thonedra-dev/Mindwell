@@ -72,3 +72,6 @@ Database: MySQL (XAMPP)
 If you face any difficulty or have questions, feel free to reach out:  
 **Email:** thonedra.dev@gmail.com
 
+## System Requirement
+[beak](https://beakit.com/)
+<img src="https://t.bkit.co/w_69179cdabcde9.gif" />
