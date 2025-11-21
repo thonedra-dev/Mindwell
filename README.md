@@ -1,5 +1,5 @@
 # Mindwell Web
-Mindwell Web is a mental well-being platform designed to empower users by providing mental health resources, encouragement, and personalized support. The web application allows users to explore content freely, register for an account, and book appointments with counselors. Admins can manage appointments and communicate directly with users through a streamlined interface.
+Mindwell Web is a mental well-being platform designed to empower users by providing mental health resources, encouragement, and personalized support. The web application allows users to explore content freely, register for an account, and book appointments with counselors. Admins can manage appointments and communicate directly with users through a streamlined interface. Stack : PHP, JS, MySQL database
 
 
 ## Overview
